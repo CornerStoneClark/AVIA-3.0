@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"-->
+<div class="header">
+<div class="container">
+<div id="header">
+<img class="logo"/>
+ <a class="active"><a href="https://avia-abcc.ncifcrf.gov/apps/site/sub_analysis/?id=3"></a><img src="https://avia-abcc.ncifcrf.gov/modules/site/library/images/avia_logo_01.png" alt="AVIA logo"/>
+<div class="row">
+<!--<div class="col-sm-4">Annotation, Visualization, and Analysis</div>-->
+<!--<div class="col-med-8">Analysis of Genomic Variations with AVIA</div>-->
+</div>
+</div>
+</div>
+<nav class="navbar navbar">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<ul class="nav navbar-nav">
+<li class="active"><a href="https://avia-abcc.ncifcrf.gov/apps/site/sub_analysis/?id=3">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="https://portal.gdc.cancer.gov/exploration">GTEx Cases, Genes, Mutations</a></li>
+<li><a href="https://www.gtexportal.org/home/gene/SLK">Gene Expression in Healthy Tissue</a></li>
+<li><a href="https://www.cancer.gov/types">Cancer Types</a></li>
+<li><a href="#"class="dropdown-toggle" data-toggle="dropdown">Reources<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://www.gtexportal.org/home/gene/TP53">GTEx Gene Page</a></li>
+<li><a href="https://www.gtexportal.org/home/">GTEx Portal</a></li>
+<li><a href="https://portal.gdc.cancer.gov/">TCGA GDC Data Portal</a></li>
+<li><a href="https://cancergenome.nih.gov/">NIH TCGA</a></li>
+<li><a href="http://www.cbioportal.org/">cBio Portal</a></li>
+<li><a href="https://www.cancer.gov/about-nci/organization/ccg">Center for Cancer Genomics</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/geo/info/overview.html">NCBI Gene Expression Omnibus</a></li>
+</ul>
+</ul>
+<!--<button class="btn btn-primary navbar-btn">Search</button>-->
+<form class="navbar-form navbar-left">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Search">
+</div>
+<button type="submit" class="btn btn-info">Submit</button>
+<!--<<button type="button" class="btn-success">
+<span class="glyphicon glyphicon-search form-inline pull-right"></span>Search
+</button>-->
+</div>
+</div>
+</div>
+</nav>
+</body>
+</html>
